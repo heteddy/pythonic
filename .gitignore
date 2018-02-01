@@ -1,0 +1,12 @@
+### Django ###
+/node_modules/
+*.log
+*.pot
+*.py[cod]
+__pycache__/
+.idea/
+.DS_Store
+media/
+log/
+migrations/
+!__init__.py

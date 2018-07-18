@@ -9,10 +9,10 @@ import sys
 
 setting_path = os.path.dirname(os.path.abspath(__file__))
 
-sys.path.insert(0,setting_path)
-
+sys.path.insert(0, setting_path)
 
 TEST_CASES = [
     "key_words.test",
     "sys_module.test",
+    "signals.test"
 ]

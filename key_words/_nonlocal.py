@@ -5,6 +5,7 @@
 @time: 2018/1/5 18:32
 """
 
+
 # from functools import wraps,partial
 #
 # def attach_wrapper(obj, func=None):
@@ -19,10 +20,11 @@ def auto_inc(start):
     counter = start
 
     def _inc():
-        #todo 去掉 nonlocal报错
+        # todo 去掉 nonlocal报错
         nonlocal counter
         counter += 1
         return counter
+
     return _inc
 
 
@@ -31,7 +33,3 @@ if __name__ == '__main__':
     a()
     a()
     a()
-
-
-
-

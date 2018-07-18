@@ -14,5 +14,6 @@ sys.path.insert(0, setting_path)
 TEST_CASES = [
     "key_words.test",
     "sys_module.test",
-    "signals.test"
+    "signals.test",
+    "function.test"
 ]
